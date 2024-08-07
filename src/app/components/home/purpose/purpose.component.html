@@ -1,0 +1,112 @@
+
+  <section
+    class="section fit d-flex align-items-center nav_padding bg-secondary p-bg p-bg-white"
+  >
+    <div class="container container_space">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+
+          <div  #step1 >
+            
+          </div>
+
+          <div *ngIf="currentStep === 'step1'">
+            <h2 class="h-font display-5 lh-base mb-4 mb-lg-5 text-white fadeOutUp " pAnimateOnScroll enterClass="fadeInUp" leaveClass="fadeOutUp" >
+              Serving people and making a positive difference
+              <span class="d-block text-primary fw-bold">since 1980</span>
+            </h2>
+            <button
+              pRipple
+              class="btn btn-primary btn-lg btn-lg-lg rounded-5 fadeOutUp delay-1"  pAnimateOnScroll enterClass="fadeInUp" leaveClass="fadeOutUp"
+              (click)="handleSteps('step2')"
+            >
+              Explore our values
+              <i class="pi pi-arrow-up-right align-middle ms-1"></i>
+            </button>
+          </div>
+          
+          <div *ngIf="currentStep === 'step2'">
+            <div class="row mb-4">
+              <div class="col text-start mb-3">
+                <button
+                  pRipple
+                  class="p_icon lg bg-transparent text-primary border-0 overflow-visible"
+                  (click)="handleSteps('step1')"
+                >
+                  <i class="pi pi-chevron-left"></i>
+                </button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 col-lg-3 mb-5 fadeOutUp" pAnimateOnScroll enterClass="fadeInUp" leaveClass="fadeOutUp" >
+                <figure class="icon_card text-center" >
+                  <h4 class="title">Knowledge</h4>
+                  <div class="icon">
+                    <span class="anim_icon" >
+                      <img src="assets/icons/animated/knowledge/knowledge.svg" alt="" />
+                      <img class="anim_elm knowledge_gear" src="assets/icons/animated/knowledge/knowledge-gear.svg" alt=""/>
+                    </span> 
+                  </div>
+                  <figcaption>
+                    <p class="opacity-50" >
+                      Enriched by our <strong>expertise</strong>.
+                      Driven by our <strong>innovation</strong>.
+                    </p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-6 col-lg-3 mb-5 fadeOutUp delay-1" pAnimateOnScroll enterClass="fadeInUp" leaveClass="fadeOutUp" >
+                <figure class="icon_card text-center">
+                  <h4 class="title">Action</h4>
+                  <div class="icon">
+                    <span class="anim_icon" >
+                      <img src="assets/icons/animated/action/action.svg" alt="" />
+                      <img class="anim_elm action_star" src="assets/icons/animated/action/action-star.svg" alt=""/>
+                    </span> 
+                  </div>
+                  <figcaption>
+                    <p class="opacity-50" >
+                      Empowered by our <strong>entrepreneurial</strong> spirit. Guided by our <strong>integrity</strong>.
+                    </p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-6 col-lg-3 mb-5 fadeOutUp delay-2" pAnimateOnScroll enterClass="fadeInUp" leaveClass="fadeOutUp" >
+                <figure class="icon_card text-center">
+                  <h4 class="title">Care</h4>
+                  <div class="icon">
+                    <span class="anim_icon" >
+                      <img src="assets/icons/animated/care/care.svg" alt="" />
+                      <img class="anim_elm hart" src="assets/icons/animated/care/hart.svg" alt=""/>
+                    </span> 
+                  </div>
+                  <figcaption>
+                    <p class="opacity-50" >
+                      Demonstrating <strong>trusteeship</strong> always. Embodying <strong>humility</strong> at every step. 
+                    </p>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-6 col-lg-3 fadeOutUp delay-3" pAnimateOnScroll enterClass="fadeInUp" leaveClass="fadeOutUp" >
+                <figure class="icon_card text-center">
+                  <h4 class="title">Impact</h4>
+                  <div class="icon">
+                    <span class="anim_icon" >
+                      <img src="assets/icons/animated/impact/impact.svg" alt="" />
+                      <img class="anim_elm graph" src="assets/icons/animated/impact/graph.svg" alt=""/>
+                    </span> 
+                  </div>
+                  <figcaption>
+                    <p class="opacity-50" >
+                      Dedicated to <strong>performance</strong>. Fortified by our <strong>resilience</strong>.
+                    </p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>

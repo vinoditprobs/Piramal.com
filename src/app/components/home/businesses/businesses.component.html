@@ -1,0 +1,101 @@
+
+    <section class="section fit d-flex align-items-center nav_padding bg-secondary section_list_padding " >
+        <div class="section_bg p-bg-overlay"  >
+            <span class="bg" [ngClass]="default? 'active' : '' "  style="background-image: url('assets/images/businesses-bg.jpg');"   >
+                <span class="overlay" style="background-color: rgba(0, 0, 0, 0.2);"  ></span>
+            </span>
+            <span class="bg" [ngClass]="financialServices? 'active' : '' "  style="background-image: url('assets/images/financial-services-bg.jpg');"   >
+                <span class="overlay" style="background-color: rgba(0, 0, 0, 0.2);"  ></span>
+            </span>
+            <span class="bg" [ngClass]="pharmaCeuticals? 'active' : '' " style="background-image: url('assets/images/pharmaceuticals.jpg');"   >
+                <span class="overlay" style="background-color: rgba(0, 0, 0, 0.2);"  ></span>
+            </span>
+            <span class="bg" [ngClass]="realEstate? 'active' : '' " style="background-image: url('assets/images/real-estate.jpg');"   >
+                <span class="overlay" style="background-color: rgba(0, 0, 0, 0.2);"  ></span>
+            </span>
+        </div>
+        <div class="container container_space z-2" >
+            <div class="row justify-content-between" >
+                <div class="col-sm-12 col-md-12 col-lg-6 text-white order-1 order-lg-0 align-self-start" >
+                    <span class="fs-5 fw-lighter text-uppercase" >Businesses</span>
+                    <div *ngIf="default" >
+                        <div class="mb-2 mt-2" >
+                            <h2 class="h-font display-3 mb-3 fadeOutUp fw-normal" pAnimateOnScroll enterClass="fadeInUp" leaveClass="fadeOutUp" >
+                                We strive to do <br>well in our work</h2>
+                            <span class="underline start delay-1" pAnimateOnScroll enterClass="show" ></span>
+                        </div> 
+                    </div>
+                    <div *ngIf="financialServices" >
+                        <div class="mb-2 mt-2" >
+                            <h2 class="h-font display-3 mb-3 fadeOutUp fw-normal" pAnimateOnScroll enterClass="fadeInUp" leaveClass="fadeOutUp" >
+                                Financial Services</h2>
+                            <span class="underline start delay-1" pAnimateOnScroll enterClass="show" ></span>
+                        </div> 
+                        <p class="fw-normal mb-4 fadeOutUp delay-1" pAnimateOnScroll enterClass="fadeInUp" leaveClass="fadeOutUp" >
+                           <span class="opacity-75 " >
+                            Piramal Finance provides financial solutions across the areas of asset management, private debt, private equity, retail lending and others.
+                           </span>
+                        </p>
+                        <p class="fadeOutUp delay-2" pAnimateOnScroll enterClass="fadeInUp" leaveClass="fadeOutUp" >
+                            <a href="https://www.piramalfinance.com/" target="_blank" pRipple class="btn btn-primary rounded-5" >
+                                Explore Piramal Finance <i class="pi pi-arrow-up-right align-middle ms-1"></i>
+                            </a>
+                        </p>
+                    </div>
+                    <div *ngIf="pharmaCeuticals" >
+                        <div class="mb-2 mt-2" >
+                            <h2 class="h-font display-3 mb-3 fadeOutUp fw-normal" pAnimateOnScroll enterClass="fadeInUp" leaveClass="fadeOutUp" >
+                                Pharmaceuticals</h2>
+                            <span class="underline start delay-1" pAnimateOnScroll enterClass="show" ></span>
+                        </div> 
+                        <p class="fw-normal mb-4 fadeOutUp delay-1" pAnimateOnScroll enterClass="fadeInUp" leaveClass="fadeOutUp" >
+                           <span class="opacity-75 " >
+                            Piramal Pharma Limited solves for the entire spectrum of pharmaceutical needs with its end-to-end development and manufacturing capacity. 
+                           </span>
+                        </p>
+                        <p class="fadeOutUp delay-2" pAnimateOnScroll enterClass="fadeInUp" leaveClass="fadeOutUp" >
+                            <a href="https://www.piramalpharma.com/" target="_blank" pRipple class="btn btn-primary rounded-5" >
+                                Explore Piramal Pharmaceuticals <i class="pi pi-arrow-up-right align-middle ms-1"></i>
+                            </a>
+                        </p>
+                    </div>
+                    <div *ngIf="realEstate" >
+                        <div class="mb-2 mt-2" >
+                            <h2 class="h-font display-3 mb-3 fadeOutUp fw-normal" pAnimateOnScroll enterClass="fadeInUp" leaveClass="fadeOutUp" >
+                                Real Estate</h2>
+                            <span class="underline start delay-1" pAnimateOnScroll enterClass="show" ></span>
+                        </div> 
+                        <p class="fw-normal mb-4 fadeOutUp delay-1" pAnimateOnScroll enterClass="fadeInUp" leaveClass="fadeOutUp" >
+                           <span class="opacity-75 " >
+                            Piramal Realty, one of India's leading developers, brings the gold standard in design, quality, safety and customer centracity to the residential and commercial real estate industry.
+                           </span>
+                        </p>
+                        <p class="fadeOutUp delay-2" pAnimateOnScroll enterClass="fadeInUp" leaveClass="fadeOutUp" >
+                            <a href="https://www.piramalrealty.com/" target="_blank" pRipple class="btn btn-primary rounded-5" >
+                                Explore Piramal Realty <i class="pi pi-arrow-up-right align-middle ms-1"></i>
+                            </a>
+                        </p>
+                    </div>
+                 </div>
+
+
+                
+                <div class="col-sm-12 col-md-12 col-lg-5 align-self-center order-0 order-lg-1 mb-5 mb-lg-0" >
+                    <ul class="section_list text-white" >
+                        <li>
+                            <button pRipple class="link overflow-visible clear" (click)="clickFinancialServices()" [ngClass]="financialServices? 'active' : '' "  >Financial Services</button>
+                        </li>
+                        <li>
+                            <button pRipple class="link overflow-visible clear" (click)="clickPharmaCeuticals()" [ngClass]="pharmaCeuticals? 'active' : '' "  >Pharmaceuticals</button>
+                            
+                        </li>
+                        <li>
+                            <button pRipple class="link overflow-visible clear" (click)="clickRealEstate()" [ngClass]="realEstate? 'active' : '' "  >Real Estate</button>
+                            
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>

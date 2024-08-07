@@ -1,0 +1,31 @@
+.parallax_on_hover{
+    width: 100%;
+    background-color: antiquewhite;
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--bs-border-radius-xxl) !important;
+    
+    .parallax{
+        position: absolute;
+        transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 0.25s;
+        img{
+            transform: scale(1.5);
+        }
+    }
+    .mudra_overlay{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 4;
+        opacity: 0.1;
+        .mudra{
+            max-width: 50%;
+            max-height: 70%;
+        }
+    }
+}

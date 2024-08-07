@@ -1,0 +1,86 @@
+<footer class="scrollspy" >
+
+    <div class="footer bg-secondary text-white" >
+        <div class="container container_space" >
+            <div class="row mb-3" style="border-bottom: 1px solid rgba(255, 255, 255, 0.3);" >
+                <div class="col-sm-12 col-md-12 col-lg-5 mb-4 text-center text-lg-start " >
+                    <span class="footer_logo" ><img src="assets/images/piramal.svg" alt="" ></span>
+                    <h6 class="mt-4 mb-4" >Stay update with Piramal Group</h6>
+                    <div class="mb-3" >
+                        <div class="row g-1" >
+                            <div class="col-7 col-lg-8" ><input class="w-100 rounded-5" type="text" pInputText placeholder="Enter your email" /></div>
+                            <div class="col-5 col-lg-4" ><button pRipple class="btn btn-primary w-100 rounded-5" >Subscribe <i class="pi pi-arrow-up-right align-middle ms-1" ></i></button></div>
+                        </div>
+                    </div>
+                    <p class="mb-0 fs-8 opacity-50" >By subscribing you agree with our Privacy Policy and provide consent to receive updates from our company.</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7 mb-0 mb-lg-4 text-center text-lg-start" >
+                        <div class="row" >
+                            <div class="col-sm-12 col-md-12 col-lg-8 " >
+                                <button class="btn btn-outline-light w-100 rounded-5 mb-3 toggle_footer_nav_link" (click)="toggleFooterMenu()" >Quick Links <i class="pi  ms-2 align-middle" [ngClass]="footerMenu? 'pi-arrow-up':'pi-arrow-down'"  ></i></button>
+                                <div class="footer_nav toggle_footer_nav" [ngClass]="footerMenu? 'active':''" >
+                                    <ul>
+                                        <li><a pRipple class="menu_link scrollspyLink" [class.active]="currentSection === 'purpose'" (click)="scrollTo('purpose');" >Purpose</a></li>
+                                        <li class="black_block" ><a pRipple class="menu_link scrollspyLink" [class.active]="currentSection === 'presence'" (click)="scrollTo('presence');" >Presence</a></li>
+                                        <li class="black_block"  ><a pRipple class="menu_link scrollspyLink"  [class.active]="currentSection === 'businesses'" (click)="scrollTo('businesses')" >Businesses</a></li>
+                                        <li><a pRipple class="menu_link scrollspyLink" [class.active]="currentSection === 'socialResponsibility'" (click)="scrollTo('socialResponsibility')" >Social Responsibility</a></li>
+                                        <li><a pRipple class="menu_link scrollspyLink" [class.active]="currentSection === 'leadership'" (click)="scrollTo('leadership')" >Leadership</a></li>
+                                        <li class="black_block"><a pRipple class="menu_link scrollspyLink" [class.active]="currentSection === 'newsMedia'" (click)="scrollTo('newsMedia')" >News & Media</a></li>
+                                        <li class="black_block" ><a pRipple class="menu_link" routerLink="/careers" routerLinkActive="active" >Careers</a></li>
+                                        <li><a pRipple class="menu_link" routerLink="/contact" routerLinkActive="active" >Contact Us</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li class="w-100 border-0" ><span  class="menu_link" >Businesses</span></li>
+                                        <li class="w-100 border-0" >
+                                            <ul>
+                                                <li>
+                                                    <a class="sub_menu_link" href="https://www.piramalfinance.com/" target="_blank"  >Piramal Finance</a>
+                                                </li>
+                                                <li>
+                                                    <a class="sub_menu_link" href="https://www.piramalpharma.com/" target="_blank"  >Piramal Pharma</a>
+                                                </li>
+                                                <li class="w-100" >
+                                                    <a class="sub_menu_link" href="https://www.piramalrealty.com/" target="_blank" >Piramal Realty</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                    </ul> 
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-4" >
+                                <div class="footer_nav" >
+                                    <ul>
+                                        <li class="w-100" ><span  class="menu_link" >Connect With Us</span></li>
+                                        <li class="w-100" >
+                                            <ul class="row" >
+                                                <li class="col-4 col-md-12" >
+                                                    <a class="sub_menu_link  opacity-100" href="#"><i class="pi pi-facebook me-2 text-primary" ></i> Facebook</a>
+                                                </li>
+                                                <li class="col-4 col-md-12 " >
+                                                    <a  class="sub_menu_link opacity-100" href="#"><i class="pi pi-twitter me-2 text-primary" ></i>  Twitter</a>
+                                                </li>
+                                                <li class="col-4 col-md-12" >
+                                                    <a  class="sub_menu_link  opacity-100" href="#"><i class="pi pi-linkedin me-2 text-primary" ></i> LinkedIn</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                    </ul> 
+                                    </div>
+                            </div>
+                        </div>  
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-sm-12 col-md-6 text-center text-md-start mb-1 mb-md-0" >
+                    <span class="fs-7">© 2024 Piramal. All rights reserved.</span>
+                </div>
+                <div class="col-sm-12 col-md-6 text-center text-md-end" >
+                    <a routerLink="privacy-policy" routerLinkActive="active" class="clear fs-7" >Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>

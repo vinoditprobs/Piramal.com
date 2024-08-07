@@ -1,0 +1,41 @@
+<main>
+    <section class="section d-flex align-items-end nav_padding  banner"
+        style="background-image: url(assets/images/news-media-banner.jpg);">
+        <span class="overlay" style="background-color: rgba(0, 0, 0, 0.3);"></span>
+        <div class="container container_space z-2">
+            <div class="row align-items-end ">
+                <div class="col-sm-12 text-white">
+                    <h2 class="h-font display-5">News & Media </h2>
+                    <p class="opacity-75">Find out about the latest developments at Piramal Group here</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="tabSection" >
+        <div class="bg-secondary">
+            <div class="container-fluied ">
+                <p-tabView class="center lg" (onChange)="onTabChange()" >
+                    <p-tabPanel header="Press Releases">
+                        <div class="bg-white">
+                            <div class="container container_space pt-2">
+                               <app-press-releases></app-press-releases>
+                            </div>
+                        </div>
+                    </p-tabPanel>
+                    <p-tabPanel header="In The News">
+                        <div class="bg-white">
+                            <div class="container container_space pt-2">
+                               <app-in-the-news></app-in-the-news>
+                            </div>
+                        </div>
+                    </p-tabPanel>
+
+                </p-tabView>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </section>
+
+</main>

@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "name": "Ajay Piramal",
+      "designation": "Chairman & Executive Director",
+      "photoUrl": "assets/images/profile/ajay-piramal.jpg",
+      "shortDesription": "Inspired from the Bhagvad Gita, Mr Ajay Piramal shapes our business efforts with a keen focus on unlocking India's socio-economic potential.",
+      "desription":"<p>Mr Ajay Piramal has steered the conglomerate to global prominence across 30 countries and over 100 markets. His ‘Doing Well and Doing Good’ philosophy drives both business success and social impact. Through the Piramal Foundation, he has improved healthcare, education, and nutrition for over 112 million people in India. His leadership roles include prestigious institutions like Harvard Business School and Tata Sons Ltd. Recognized with numerous awards, Mr. Piramal continues to champion responsible entrepreneurship and impactful philanthropy.</p>"
+    },
+    {
+        "id": 2,
+        "name": "DR. Swati Piramal",
+        "designation": "Vice Chairperson and Executive Director",
+        "photoUrl": "assets/images/profile/swati-piramal.jpg",
+        "shortDesription": "Dr. Swati Piramal plays a pivotal role in helping create cost-effective, science-based healthcare solutions in India.",
+        "desription":"<p>Dr. Swati Piramal has played a pivotal role in its global success across 30 countries and over 100 markets. Awarded the Padma Shri in 2012, she has significantly impacted public health through innovations and campaigns against major diseases. As Director of Piramal Foundation, she develops scalable solutions in healthcare, education, and women's empowerment. Dr. Piramal has held leadership roles in esteemed institutions, including Nestle India and Harvard. Her dedication to ethical practices and inclusive growth has earned her numerous accolades, solidifying her legacy as a leader and changemaker.</p>"
+      },
+      {
+        "id": 3,
+        "name": "Anand Piramal",
+        "designation": "Executive Director, Piramal Group",
+        "photoUrl": "assets/images/profile/anand-piramal.jpg",
+        "shortDesription": "Mr Anand Piramal, with his robust expertise, leads our financial services and real estate ventures.",
+        "desription":"<p>Mr Anand Piramal heads the financial services businesses of the Piramal Group, making it one of India’s largest and most diversified NBFCs. He brings robust expertise in affordable home lending, SME lending, construction finance, and mid-market corporate lending. Anand also leads Piramal Realty, renowned for its prime developments in Mumbai, supported by Warburg Pincus and Goldman Sachs. Founder of Piramal Swasthya, India’s largest private primary healthcare initiative, Anand’s contributions have earned him accolades like the Hurun Real Estate Unicorn of the Year Award. He holds degrees from Harvard Business School and the University of Pennsylvania.</p>"
+      },
+      {
+        "id": 4,
+        "name": "Nandini Piramal",
+        "designation": "Non-Executive Director, Piramal Group",
+        "photoUrl": "assets/images/profile/nandini-piramal.jpg",
+        "shortDesription": "Ms Nandini Piramal leads our rapidly growing OTC business and spearheads HR, IT, and quality functions.",
+        "desription":"<p>Nandini Piramal leads the Over-The-Counter (OTC) business at the Piramal Group. It has become one of India's fastest-growing OTC companies under her leadership. She played a crucial role in the landmark sale of Piramal Healthcare’s branded generic-medicine business to Abbott Laboratories. Nandini also heads Human Resources, Information Technology, and the Quality & Risk functions for the Pharma business, initiating an HR transformation strategy focused on service delivery and operational excellence. Recognized as a ‘Young Global Leader’ by the World Economic Forum, Nandini is actively involved with Piramal Foundation's social initiatives. She holds degrees from Stanford and Oxford.</p>"
+      }
+
+  ]
+  

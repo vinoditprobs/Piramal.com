@@ -1,0 +1,134 @@
+<main>
+    <section class="section d-flex align-items-end nav_padding banner"
+        style="background-image: url(assets/images/contact-banner.webp);">
+        <span class="overlay" style="background-color: rgba(0, 0, 0, 0.3);"></span>
+        <div class="container container_space z-2">
+            <div class="row align-items-end ">
+                <div class="col-sm-12 text-white">
+                    <h1 class="h-font display-5">Contact Us</h1>
+                    <p class="opacity-75">Get in touch with us today</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section overflow-hidden">
+        <div class="container container_space">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 mb-4 mb-lg-0">
+                    <div class="pe-0 pe-lg-5" >
+                        <div class="row mb-5 gx-5">
+                            <div class="col-sm-12">
+                                <div class="mb-2">
+                                    <h2 class="h-font display-6 lh-base mb-2">Write to Us</h2>
+                                    <span class="underline start delay-1" pAnimateOnScroll enterClass="show"></span>
+                                </div>
+                                <p class="opacity-75">Have a question, feedback, or just want to say hello? Fill out the
+                                    form below and we'll get back to you soon.</p>
+                            </div>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col-sm-12">
+                                <div class="form fullwidth_inputs rounded_inputs">
+                                    <div class="row gx-2 gy-3">
+                                        <div class="col-6">
+                                            <p-floatLabel>
+                                                <p-dropdown [options]="inquiryTypes" [(ngModel)]="selectedInquiryType" optionLabel="name" />
+                                                <label for="">Select Enquiry Type</label>
+                                            </p-floatLabel>
+                                        </div>
+                                        <div class="col-6">
+                                            <p-floatLabel>
+                                                <p-dropdown [options]="countries" [(ngModel)]="selectedCountry" optionLabel="name" />
+                                                <label for="countries">Select Country</label>
+                                            </p-floatLabel>
+                                        </div>
+                                        <div class="col-6">
+                                            <p-floatLabel>
+                                                <p-dropdown [options]="states" [(ngModel)]="selectedState" optionLabel="name" />
+                                                <label for="states">Select State</label>
+                                            </p-floatLabel>
+                                        </div>
+                                        <div class="col-6">
+                                            <p-floatLabel>
+                                                <p-dropdown [options]="cities" [(ngModel)]="selectedCity" optionLabel="name" />
+                                                <label for="cities">Select City</label>
+                                            </p-floatLabel>
+                                        </div>
+    
+    
+                                        <div class="col-6">
+                                            <p-floatLabel class="w-100">
+                                                <input pInputText id="firstName" />
+                                                <label for="firstName">First Name</label>
+                                            </p-floatLabel>
+                                        </div>
+                                        <div class="col-6">
+                                            <p-floatLabel>
+                                                <input pInputText id="lastName" class="w-100" />
+                                                <label for="lastName">Last Name</label>
+                                            </p-floatLabel>
+    
+                                        </div>
+    
+                                        <div class="col-6">
+                                            <p-floatLabel class="w-100">
+                                                <input pInputText id="emailID" />
+                                                <label for="emailID">Email ID</label>
+                                            </p-floatLabel>
+                                        </div>
+                                        <div class="col-6">
+                                            <p-floatLabel>
+                                                <input pInputText id="contactNumber" class="w-100" />
+                                                <label for="contactNumber">Contact Number</label>
+                                            </p-floatLabel>
+                                        </div>
+                                        <div class="col-12">
+                                            <p-floatLabel>
+                                                <textarea pInputTextarea id="message" ></textarea>
+                                                <label for="message">Message</label>
+                                            </p-floatLabel>
+                                        </div>
+                                        <div class="col-12">
+                                            <button pRipple class="btn btn-primary rounded-5 btn-lg" >Submit <i class="pi pi-arrow-up-right align-middle ms-1"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-3" >
+                        <div class="col-auto mb-2" >
+                            <div class="d-inline-flex align-items-center" >
+                               <span class="p_icon text-dark me-2" >
+                                <i class="pi pi-phone" ></i>
+                               </span> 
+                               <div>
+                                <span class="fs-7 text-uppercase d-inline-block w-100 fw-semibold" >PHONE</span>
+                                <a href="tel:+912238023000" target="_blank" class="text-primary clear fs-8 align-top" >+91-22-3802 3000/4000</a>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-auto" >
+                            <div class="d-inline-flex align-items-center" >
+                               <span class="p_icon text-dark me-2" >
+                                <i class="pi pi-envelope" ></i>
+                               </span> 
+                               <div>
+                                <span class="fs-7 text-uppercase d-inline-block w-100 fw-semibold" >EMAIL</span>
+                                <a href="mailto:corporate.communicationpiramal.com" target="_blank" class="text-primary clear fs-8 align-top" >corporate&#64;communicationpiramal.com</a>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 half_col_bg">
+                    <div class="h-100"  >
+                        <div class="map bg-light-gray rounded-5 shadow-sm" >
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.5011556445793!2d72.8839988768211!3d19.085658182120866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c88805025f33%3A0xad92e7934216a7d6!2sAgastya%20Corporate%20Park%20Piramal%20Realty!5e0!3m2!1sen!2sin!4v1722323896288!5m2!1sen!2sin"  style="border:none !important"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

@@ -1,0 +1,6 @@
+<div (mousemove)="onMouseMove($event)" class="parallax_on_hover "  >
+    <span class="mudra_overlay" ><img  src="assets/images/piramal-logo-icon.svg" alt="Mudra" class="mudra" ></span>
+    <div class="ratio" [ngClass]="ratio" >
+        <div [style.transform]="transformStyle" class="parallax" ><img  [src]="imageSrc" alt="Movable Image" ></div>
+    </div>
+</div>

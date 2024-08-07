@@ -1,0 +1,35 @@
+
+<header>
+    <div class="navbar" >
+       <div class="w-100 h-100" >
+        <div class="container h-100" >
+            <div class="row h-100" >
+             <div class="col-4 col-md-3 col-lg-2 align-self-center h-100 " >
+                <a class="main_logo" (click)="scrollTo('home')" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" > 
+                    <img src="assets/images/piramal.svg" alt=""  >
+                </a>
+             </div>
+             <div class="col-8 col-md-9 col-lg-10 align-self-center text-end" >
+                <nav class="main_menu" >
+                  <ul>
+                     <li><a pRipple class="menu_link scrollspyLink" [class.active]="currentSection === 'purpose'" (click)="scrollTo('purpose'); closeMenu()" >Purpose</a></li>
+                     <li class="black_block" ><a pRipple class="menu_link scrollspyLink" [class.active]="currentSection === 'presence'" (click)="scrollTo('presence'); closeMenu()" >Presence</a></li>
+                     <li class="black_block"  ><a pRipple class="menu_link scrollspyLink"  [class.active]="currentSection === 'businesses'" (click)="scrollTo('businesses'); closeMenu()" >Businesses</a></li>
+                     <li><a pRipple class="menu_link scrollspyLink" [class.active]="currentSection === 'socialResponsibility'" (click)="scrollTo('socialResponsibility'); closeMenu()" >Social Responsibility</a></li>
+                     <li><a pRipple class="menu_link scrollspyLink" [class.active]="currentSection === 'leadership'" (click)="scrollTo('leadership'); closeMenu()" >Leadership</a></li>
+                     <li class="black_block"><a pRipple class="menu_link scrollspyLink" [class.active]="currentSection === 'newsMedia'" (click)="scrollTo('newsMedia'); closeMenu()" >News & Media</a></li>
+                     <li class="black_block" ><a pRipple class="menu_link" routerLink="/careers" routerLinkActive="active" (click)="closeMenu()" >Careers</a></li>
+                     <li><a pRipple class="menu_link" routerLink="/contact" routerLinkActive="active"  (click)="closeMenu()" >Contact Us</a></li>
+                 </ul>
+
+                 </nav>
+                 <div class="hamburger" pRipple (click)="toggleMenu()" [ngClass]="mainMenu ? 'active' : '' " >
+                    <i class="pi" [ngClass]="mainMenu ? 'pi-times' : 'pi-bars' " aria-label="Menu" ></i>
+                 </div>
+             </div>
+            </div>
+         </div>
+       </div>
+    </div>
+
+</header>

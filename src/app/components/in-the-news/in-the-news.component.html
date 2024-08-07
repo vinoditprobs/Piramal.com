@@ -1,0 +1,96 @@
+<div class="row mb-4">
+    <div class="col-sm-12">
+        <div class="p-3 p-lg-4 bg-light-gray rounded-4 fullwidth_inputs rounded_inputs">
+            <div class="row gx-2 align-items-center">
+                <div class="col-sm-12 col-md-12 col-lg-6 mb-2 mb-lg-0">
+                    <p-iconField iconPosition="right">
+                        <p-inputIcon styleClass="pi pi-search" />
+                        <input type="text" pInputText placeholder="Search" />
+                    </p-iconField>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="row gx-2">
+                        <div class="col-6"><p-dropdown [options]="inquiryTypes" [(ngModel)]="selectedInquiryType"
+                                optionLabel="name" placeholder="Business Category" /></div>
+                        <div class="col-6"><p-calendar [(ngModel)]="date" [iconDisplay]="'input'" [showIcon]="true"
+                                inputId="icondisplay" placeholder="Select Date" /></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" >
+    <div class="col-sm-12 col-md-6 mb-3" >
+        <div class="news_card" pRipple >
+            <p class="label" >NTDV</p>
+            <h4 class="headline" >Lore Ipsum Lorem $100 Million loan to support social impact projects</h4>
+            <p class="description" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit... Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
+            <p class="date" >Aug 09, 2022</p>
+            <p class="mb-0" >
+            <a routerLink="" pRipple class="btn btn-link text-primary clear overflow-visible px-0">Read the story <i class="pi pi-arrow-up-right align-middle ms-1"></i></a>
+            </p>
+        </div>
+    </div>  
+    <div class="col-sm-12 col-md-6 mb-3" >
+        <div class="news_card" pRipple >
+            <p class="label" >News 18</p>
+            <h4 class="headline" >Piramal Finance secures $100 Million loan to support social impact projects</h4>
+            <p class="description" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit... Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
+            <p class="date" >Aug 09, 2022</p>
+            <p class="mb-0" >
+            <a routerLink="" pRipple class="btn btn-link text-primary clear overflow-visible px-0">Read the story <i class="pi pi-arrow-up-right align-middle ms-1"></i></a>
+            </p>
+        </div>
+    </div> 
+    <div class="col-sm-12 col-md-6 mb-3" >
+        <div class="news_card" pRipple >
+            <p class="label" >CNBC</p>
+            <h4 class="headline" >Piramal Finance secures $100 Million loan to support social impact projects</h4>
+            <p class="description" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit... Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
+            <p class="date" >Aug 09, 2022</p>
+            <p class="mb-0" >
+            <a routerLink="" pRipple class="btn btn-link text-primary clear overflow-visible px-0">Read the story <i class="pi pi-arrow-up-right align-middle ms-1"></i></a>
+            </p>
+        </div>
+    </div> 
+    <div class="col-sm-12 col-md-6 mb-3" >
+        <div class="news_card" pRipple >
+            <p class="label" >IBN News</p>
+            <h4 class="headline" >Piramal Finance secures $100 Million loan to support social impact projects</h4>
+            <p class="description" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit... Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
+            <p class="date" >Aug 09, 2022</p>
+            <p class="mb-0" >
+            <a routerLink="" pRipple class="btn btn-link text-primary clear overflow-visible px-0">Read the story <i class="pi pi-arrow-up-right align-middle ms-1"></i></a>
+            </p>
+        </div>
+    </div> 
+    <div class="col-sm-12 col-md-6 mb-3" >
+        <div class="news_card" pRipple >
+            <p class="label" >ABP News</p>
+            <h4 class="headline" >Piramal Finance secures $100 Million loan to support social impact projects</h4>
+            <p class="description" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit... Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
+            <p class="date" >Aug 09, 2022</p>
+            <p class="mb-0" >
+            <a routerLink="" pRipple class="btn btn-link text-primary clear overflow-visible px-0">Read the story <i class="pi pi-arrow-up-right align-middle ms-1"></i></a>
+            </p>
+        </div>
+    </div> 
+    <div class="col-sm-12 col-md-6 mb-3" >
+        <div class="news_card" pRipple >
+            <p class="label" >NTDV</p>
+            <h4 class="headline" >Piramal Finance secures $100 Million loan to support social impact projects</h4>
+            <p class="description" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit... Lorem ipsum dolor sit amet, consectetuer adipiscing elit...</p>
+            <p class="date" >Aug 09, 2022</p>
+            <p class="mb-0" >
+            <a routerLink="" pRipple class="btn btn-link text-primary clear overflow-visible px-0">Read the story <i class="pi pi-arrow-up-right align-middle ms-1"></i></a>
+            </p>
+        </div>
+    </div> 
+    
+</div>
+<div class="row mt-5" >
+    <div class="col-sm-12 text-center" >
+        <button class="btn btn-primary rounded-5" pRipple >Load More <i class="pi pi-arrow-up-right align-middle ms-1"></i></button>
+    </div>
+</div>
