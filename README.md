@@ -6,13 +6,10 @@ Piramal.com is a web application designed to [brief description]. The project ai
 
 ## Tech Stack
 
-- **Framework**: React, Next.js
-- **Version**: React 17, Next.js 11
-- **Styling**: Chakra UI
-- **API**: JSONPlaceholder
+- **Framework**: Angular
+- **Version**: Angular 17
+- **Styling**: PrimeNG
 
-## Installation
+## From
 
-1. Clone the repository
-   ```sh
-   git clone https://github.com/yourusername/piramal.com.git
+2024
