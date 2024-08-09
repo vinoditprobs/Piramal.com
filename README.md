@@ -22,7 +22,7 @@ The website is in development mode, and the deployment process is ongoing. Updat
 
 ## Live Demo
 
-- **Demo Link:** [Piramal.com (In Development)](http://piramal.madebysparkt.com/)
+- **Demo Link:** [Piramal.com (In Development)](https://github.com/vinoditprobs/Piramal.com.git)
 
 ## Setup and Installation
 
