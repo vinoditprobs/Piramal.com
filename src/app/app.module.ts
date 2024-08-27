@@ -38,6 +38,7 @@ import { InTheNewsComponent } from './components/in-the-news/in-the-news.compone
 import { IconFieldModule } from 'primeng/iconfield';
 import { InputIconModule } from 'primeng/inputicon';
 import { CalendarModule } from 'primeng/calendar';
+import { DisclaimerComponent } from './pages/disclaimer/disclaimer.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { CalendarModule } from 'primeng/calendar';
     PrivacyPolicyComponent,
     NewsMediaListComponent,
     PressReleasesComponent,
-    InTheNewsComponent
+    InTheNewsComponent,
+    DisclaimerComponent
   ],
   imports: [
     BrowserModule,

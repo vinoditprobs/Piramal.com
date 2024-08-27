@@ -1,0 +1,11 @@
+
+.swiper-button-next:after, .swiper-button-prev::after{
+    display: none;
+}   
+
+.swiper_nav{
+    height: 40px;
+    .position-static{
+        margin-top: 0;
+    }
+}
